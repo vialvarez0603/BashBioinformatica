@@ -1,0 +1,8 @@
+{
+    "min_length": 18,
+    "max_length": 24,
+    "min_gc_content": 0.5,
+    "max_gc_content": 0.6,
+    "max_melting_temp": 67,
+    "output_path": "Resultados/Resultados_Ejercicio5/primers.txt"
+}

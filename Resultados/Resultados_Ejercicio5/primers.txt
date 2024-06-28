@@ -1,0 +1,21 @@
+Primers diseñados:
+Primer 0:
+	Secuencia: AGAGAAAAACCAAGAGAGCGGGCA,
+	Tm: 58.57°C,
+	GC: 50.00%
+Primer 1:
+	Secuencia: AGAAAAACCAAGAGAGCGGGCA,
+	Tm: 56.75°C,
+	GC: 50.00%
+Primer 2:
+	Secuencia: AGAAAAACCAAGAGAGCGGGCAGA,
+	Tm: 58.57°C,
+	GC: 50.00%
+Primer 3:
+	Secuencia: AAAAACCAAGAGAGCGGGCA,
+	Tm: 54.59°C,
+	GC: 50.00%
+Primer 4:
+	Secuencia: AAAAACCAAGAGAGCGGGCAGA,
+	Tm: 56.75°C,
+	GC: 50.00%
