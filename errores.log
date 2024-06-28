@@ -1,0 +1,5 @@
+Process the PROSITE motif database for use by patmatmotifs
+
+   EMBOSS An error in prosextract.c at line 173:
+Cannot open file /home/ITBADC/jbrau/Documentos/Bioinf/prositedir/prosite.doc
+Scan a protein sequence with motifs from the PROSITE database
