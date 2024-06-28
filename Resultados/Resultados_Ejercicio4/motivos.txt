@@ -1,0 +1,44 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Fri 21 Jun 2024 16:07:54
+# Commandline: patmatmotifs
+#    -sequence Resultados/Resultados_Ejercicio1/ORF_FASTA.fasta
+#    -outfile ./Resultados/Resultados_Ejercicio4/motivos.txt
+# Report_format: dbmotif
+# Report_file: ./Resultados/Resultados_Ejercicio4/motivos.txt
+########################################
+
+#=======================================
+#
+# Sequence:      from: 1   to: 1059
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /home/ITBADC/jbrau/Documentos/Bioinf/prositedir/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 8
+Start = position 107 of sequence
+End = position 114 of sequence
+
+Motif = TYR_PHOSPHO_SITE_1
+
+AEAAGKTKEGVLYVGSKT
+     |      |
+   107      114
+
+Length = 4
+Start = position 779 of sequence
+End = position 782 of sequence
+
+Motif = AMIDATION
+
+LGAGEEGRRNEXLX
+     |  |
+   779  782
+
+
+#---------------------------------------
+#---------------------------------------
