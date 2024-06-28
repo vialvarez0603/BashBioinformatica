@@ -1,0 +1,7 @@
+{
+    "tipo": "blastp",
+    "resultados": 500,
+    "matriz": "BLOSUM80",
+    "e_threshold": 10,
+    "output_path": "Resultados/Resultados_Ejercicio2/RESULTADO_BLAST.txt"
+}

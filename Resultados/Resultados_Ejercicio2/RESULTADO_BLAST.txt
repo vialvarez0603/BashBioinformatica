@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7465159</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1059</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM80</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7465159</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1059</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P37840.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein; AltName: Full=Non-A beta component of AD amyloid; AltName: Full=Non-A4 component of amyloid precursor; Short=NACP [Homo sapiens] &gt;sp|P61140.1| RecName: Full=Alpha-synuclein [Gorilla gorilla gorilla] &gt;sp|P61144.1| RecName: Full=Alpha-synuclein [Pan paniscus] &gt;sp|P61145.1| RecName: Full=Alpha-synuclein [Pan troglodytes]</Hit_def>
+  <Hit_accession>P37840</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.664</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>9.742e-108</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P61139.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Erythrocebus patas]</Hit_def>
+  <Hit_accession>P61139</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.305</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>3.79149e-107</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILQDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGIL+DMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|P61142.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Macaca fascicularis] &gt;sp|P61143.1| RecName: Full=Alpha-synuclein [Macaca mulatta]</Hit_def>
+  <Hit_accession>P61142</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.399</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>7.19144e-107</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFIKKDQLGKNEEGAPQEGILQDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGF+KKDQLGKNEEGAPQEGIL+DMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P61146.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Pongo abelii]</Hit_def>
+  <Hit_accession>P61146</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.587</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>3.09636e-106</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGATQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGA QEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q3I5G7.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Sus scrofa]</Hit_def>
+  <Hit_accession>Q3I5G7</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.151</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>2.4709e-104</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVTTVAEKTKEQVTNVGEAVVTGVTAVAQKTVEGAGSIAAATGFGKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGV TVAEKTKEQVTNVG AVVTGVTAVAQKTVEGAGSIAAATGF KKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P61147.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Saguinus labiatus]</Hit_def>
+  <Hit_accession>P61147</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.245</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>4.33202e-104</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVTTVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGNIAAATGFVRKDHLGKSEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGV TVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAG IAAATGFV+KD+LGK EEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|P61138.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Ateles geoffroyi] &gt;sp|P61141.1| RecName: Full=Alpha-synuclein [Lagothrix lagotricha]</Hit_def>
+  <Hit_accession>P61138</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.715</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>1.66554e-102</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVTTVAEKTKEQVTSVGGAVVTGVTAVAQKTVEGAGNIAAATGFVKKDHSGKSEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGV TVAEKTKEQVT VGGAVVTGVTAVAQKTVEGAG IAAATGFVKKD+ GK EEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|P37377.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P37377</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.45</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>9.70787e-102</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVTTVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGNIAAATGFVKKDQMGKGEEGYPQEGILEDMPVDPSSEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGV TVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAG IAAATGFVKKDQ+GK EEG PQEGILEDMPVDP  EAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|O55042.2|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein; AltName: Full=Non-A beta component of AD amyloid; AltName: Full=Non-A4 component of amyloid precursor; Short=NACP [Mus musculus]</Hit_def>
+  <Hit_accession>O55042</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.996</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>1.40617e-101</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVTTVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGNIAAATGFVKKDQMGKGEEGYPQEGILEDMPVDPGSEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGV TVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAG IAAATGFVKKDQ+GK EEG PQEGILEDMPVDP  EAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q3T0G8.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein [Bos taurus]</Hit_def>
+  <Hit_accession>Q3T0G8</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.919</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>4.08149e-100</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGRTKEGVLYVGSKTKEGVVHGVTTVAEKTKEQVTNVGEAVVTGVTAVAQKTVEGAGSIAAATGFGKKDHMGKGEEGASQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAG+TKEGVLYVGSKTKEGVVHGV TVAEKTKEQVTNVG AVVTGVTAVAQKTVEGAGSIAAATGF KKD++GK EEGA QEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q91448.1|</Hit_id>
+  <Hit_def>RecName: Full=Alpha-synuclein; AltName: Full=Synelfin [Serinus canaria]</Hit_def>
+  <Hit_accession>Q91448</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.85</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>9.48075e-89</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGK-NEEGAPQEGILEDM--PVDPDNEAYEMPSEEGYQDYEPEA</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSRTKEGVVHGVTTVAEKTKEQVSNVGGAVVTGVTAVAQKTVEGAGNIAAATGLVKKDQLAKQNEEGFLQEGMVNNTGAAVDPDNEAYEMPPEEEYQDYEPEA</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGS+TKEGVVHGV TVAEKTKEQV+NVGGAVVTGVTAVAQKTVEGAG IAAATG VKKDQL K NEEG  QEG++ +    VDPDNEAYEMP EE YQDYEPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|Q63754.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-synuclein; AltName: Full=Phosphoneuroprotein 14; Short=PNP 14 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q63754</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.102</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>5.59423e-45</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMP-----VDPDNEAYE</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSMAKEGVVAAAEKTKQGVTEAAEKTKEGVLYVGSKTKEGVVQGVASVAEKTKEQASHLGGAVFS-----------GAGNIAAATGLVKKEEFPTDLKPEEVAQEAAEEPLIEPLMEPEGESYE</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLS AKEGVVAAAEKTKQGV EAA KTKEGVLYVGSKTKEGVV+GVA+VAEKTKEQ + +GGAV +           GAG IAAATG VKK++   + +         + P     ++P+ E+YE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P33567.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-synuclein; AltName: Full=14 kDa brain-specific protein; AltName: Full=Phosphoneuroprotein 14; Short=PNP 14 [Bos taurus]</Hit_def>
+  <Hit_accession>P33567</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.196</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>7.77561e-45</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQL</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSMAKEGVVAAAEKTKQGVTEAAEKTKEGVLYVGSKTKEGVVQGVASVAEKTKEQASHLGGAVFS-----------GAGNIAAATGLVKKEEF</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLS AKEGVVAAAEKTKQGV EAA KTKEGVLYVGSKTKEGVV+GVA+VAEKTKEQ + +GGAV +           GAG IAAATG VKK++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|Q16143.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-synuclein [Homo sapiens]</Hit_def>
+  <Hit_accession>Q16143</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.931</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>4.23007e-44</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMP-----VDPDNEAYE</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSMAKEGVVAAAEKTKQGVTEAAEKTKEGVLYVGSKTREGVVQGVASVAEKTKEQASHLGGAVFS-----------GAGNIAAATGLVKREEFPTDLKPEEVAQEAAEEPLIEPLMEPEGESYE</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLS AKEGVVAAAEKTKQGV EAA KTKEGVLYVGSKT+EGVV+GVA+VAEKTKEQ + +GGAV +           GAG IAAATG VK+++   + +         + P     ++P+ E+YE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q91ZZ3.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-synuclein [Mus musculus]</Hit_def>
+  <Hit_accession>Q91ZZ3</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.23</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.92566e-41</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMP-----VDPDNEAYE</Hsp_qseq>
+      <Hsp_hseq>MDVFMKGLSMAKEGVVAAAEKTKQGVTEAAEKTKEGVLYVGSKT-SGVVQGVASVAEKTKEQASHLGGAVFS-----------GAGNIAAATGLVKKEEFPTDLKPEEVAQEAAEEPLIEPLMEPEGESYE</Hsp_hseq>
+      <Hsp_midline>MDVFMKGLS AKEGVVAAAEKTKQGV EAA KTKEGVLYVGSKT  GVV+GVA+VAEKTKEQ + +GGAV +           GAG IAAATG VKK++   + +         + P     ++P+ E+YE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q2PFW6.1|</Hit_id>
+  <Hit_def>RecName: Full=Gamma-synuclein [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q2PFW6</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.871</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>3.90774e-41</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQE</Hsp_qseq>
+      <Hsp_hseq>MDVFKKGFSIAKEGVVGAVEKTKQGVTEAAEKTKEGVMYVGTKTKENVVHSVTSVAEKTKEQANAVSEAVVSSVNTVAAKTVEEAENIAVTSGVVRKEDL---KPSAPQQ</Hsp_hseq>
+      <Hsp_midline>MDVF KG S AKEGVV A EKTKQGV EAA KTKEGV+YVG+KTKE VVH V +VAEKTKEQ   V  AVV+ V  VA KTVE A  IA  +G V+K+ L   +  APQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|O76070.2|</Hit_id>
+  <Hit_def>RecName: Full=Gamma-synuclein; AltName: Full=Breast cancer-specific gene 1 protein; AltName: Full=Persyn; AltName: Full=Synoretin; Short=SR [Homo sapiens]</Hit_def>
+  <Hit_accession>O76070</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.247</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>7.91946e-40</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQE</Hsp_qseq>
+      <Hsp_hseq>MDVFKKGFSIAKEGVVGAVEKTKQGVTEAAEKTKEGVMYVGAKTKENVVQSVTSVAEKTKEQANAVSEAVVSSVNTVATKTVEEAENIAVTSGVVRKEDL---RPSAPQQ</Hsp_hseq>
+      <Hsp_midline>MDVF KG S AKEGVV A EKTKQGV EAA KTKEGV+YVG+KTKE VV+ V +VAEKTKEQ   V  AVV+ V  VA KTVE A  IA  +G V+K+ L      APQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q9Z0F7.1|</Hit_id>
+  <Hit_def>RecName: Full=Gamma-synuclein; AltName: Full=Persyn [Mus musculus]</Hit_def>
+  <Hit_accession>Q9Z0F7</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.435</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>2.42213e-39</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQL</Hsp_qseq>
+      <Hsp_hseq>MDVFKKGFSIAKEGVVGAVEKTKQGVTEAAEKTKEGVMYVGTKTKENVVQSVTSVAEKTKEQANAVSEAVVSSVNTVANKTVEEAENIVVTTGVVRKEDL</Hsp_hseq>
+      <Hsp_midline>MDVF KG S AKEGVV A EKTKQGV EAA KTKEGV+YVG+KTKE VV+ V +VAEKTKEQ   V  AVV+ V  VA KTVE A  I   TG V+K+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|Q9NZ50.1|</Hit_id>
+  <Hit_def>RecName: Full=Gamma-synuclein; AltName: Full=Synoretin; Short=SR [Bos taurus]</Hit_def>
+  <Hit_accession>Q9NZ50</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.529</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.26139e-39</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQL</Hsp_qseq>
+      <Hsp_hseq>MDVFKKGFSIAKEGVVGAVEKTKQGVTEAAEKTKEGVMYVGAKTKEGVVQSVTSVAEKTKEQANAVSEAVVSSVNTVATKTVEEVENIAVTSGVVHKEAL</Hsp_hseq>
+      <Hsp_midline>MDVF KG S AKEGVV A EKTKQGV EAA KTKEGV+YVG+KTKEGVV+ V +VAEKTKEQ   V  AVV+ V  VA KTVE    IA  +G V K+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q63544.2|</Hit_id>
+  <Hit_def>RecName: Full=Gamma-synuclein; AltName: Full=Persyn; AltName: Full=Sensory neuron synuclein [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q63544</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.486</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>2.80796e-34</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQL</Hsp_qseq>
+      <Hsp_hseq>MDVFKKGFSIAREGVVGAVEKTKQGVTEAAEKTKEGVMYVGTKTKGERGTSVTSVAEKTKEQANAVSEAVVSSVNTVATKTVEEAENIVVTTGVVRKEDL</Hsp_hseq>
+      <Hsp_midline>MDVF KG S A+EGVV A EKTKQGV EAA KTKEGV+YVG+KTK      V +VAEKTKEQ   V  AVV+ V  VA KTVE A  I   TG V+K+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|P37379.2|</Hit_id>
+  <Hit_def>RecName: Full=Synuclein [Tetronarce californica]</Hit_def>
+  <Hit_accession>P37379</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.392</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>4.07593e-34</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTK-----------EGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPV--DPDNEAYEMPSEEG</Hsp_qseq>
+      <Hsp_hseq>MDVLKKGFSFAKEGVVAAAEKTKQGVQDAAEKTKQGVQDAAEKTKEGVMYVGTKTKEGVVQSVNTVTEKTKEQANVVGGAVVAGVNTVASKTVEGVENVAAASGVVKLDEHGRE---IPAEQVAEGKQTTQEPLVEATEATEETG</Hsp_hseq>
+      <Hsp_midline>MDV  KG S AKEGVVAAAEKTKQGV +AA KTK           EGV+YVG+KTKEGVV+ V TV EKTKEQ   VGGAVV GV  VA KTVEG   +AAA+G VK D+ G+     P E + E      +P  EA E   E G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>483451</Statistics_db-num>
+      <Statistics_db-len>183843498</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.095</Statistics_kappa>
+      <Statistics_lambda>0.314</Statistics_lambda>
+      <Statistics_entropy>0.35</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
