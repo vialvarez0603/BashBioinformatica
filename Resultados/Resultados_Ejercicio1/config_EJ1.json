@@ -1,0 +1,6 @@
+{
+    "input_file": "input_genbank.gb",
+    "output_file": "Resultados/Resultados_Ejercicio1/output_FASTA.fasta",
+    "longitud": 140,
+    "file_of_interest": "Resultados/Resultados_Ejercicio1/ORF_FASTA.fasta"
+}
